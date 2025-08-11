@@ -1,0 +1,147 @@
+html, body {
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(234, 29%, 20%);
+}
+
+.newsletter-container {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 1.5rem;
+    gap: 2rem
+}
+
+.hidden {
+    display: none;
+}
+
+.newsletter-form {
+    padding: 2rem;
+    margin-top: -1rem;
+}
+
+.heading {
+    font-size: 3.5rem;
+}
+
+.join-paragraph {
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.list-updates {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+form ul {
+    margin: 0;
+    padding: 0;
+}
+
+form li {
+    list-style-type: none;
+}
+
+.email-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: .5rem;
+    margin-bottom: 2rem;
+}
+.email-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    color:hsl(4, 100%, 67%);
+    display: none;
+}
+
+.email {
+    font-weight: 700;
+}
+
+#email {
+    border-radius: 4px;
+    border: 1.5px solid #ccc;
+    color:  #ccc;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+#email:invalid:focus {
+    border-color: hsl(4, 100%, 67%);
+    background-color: #ffecec;
+}
+
+#email::placeholder {
+    color: #aaa;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color:  hsl(234, 29%, 20%);;
+    color: white;
+    padding: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Thank-you screen */
+
+
+.dismiss-btn {
+    width: 100%;
+    border-radius: 8px;
+    padding: 1.25rem;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
+
+.dismiss-btn:hover {
+    background-color: hsl(4, 100%, 67%);
+}
+
+.thanks-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    
+}
+
+.thanks-container img {
+    width: 3rem;
+}
+
+.thanks-heading {
+    font-size: 3rem
+}
+
+.thanks-container p {
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
